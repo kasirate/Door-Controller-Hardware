@@ -67,17 +67,6 @@ F 3 "~" H 1800 5000 50  0001 C CNN
 	1    1800 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5FB19FFB
-P 1800 5300
-F 0 "#PWR?" H 1800 5100 50  0001 C CNN
-F 1 "GNDPWR" H 1804 5146 50  0000 C CNN
-F 2 "" H 1800 5250 50  0001 C CNN
-F 3 "" H 1800 5250 50  0001 C CNN
-	1    1800 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 5300 1800 5250
 Wire Wire Line
@@ -106,17 +95,6 @@ F 1 "R_US" H 1818 2805 50  0000 L CNN
 F 2 "" V 1790 2840 50  0001 C CNN
 F 3 "~" H 1750 2850 50  0001 C CNN
 	1    1750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5FB20F61
-P 1750 3200
-F 0 "#PWR?" H 1750 3000 50  0001 C CNN
-F 1 "GNDPWR" H 1754 3046 50  0000 C CNN
-F 2 "" H 1750 3150 50  0001 C CNN
-F 3 "" H 1750 3150 50  0001 C CNN
-	1    1750 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -202,17 +180,6 @@ Text HLabel 4550 2800 0    50   Input ~ 0
 CANTX
 Wire Wire Line
 	4550 2800 4900 2800
-$Comp
-L power:GNDD #PWR?
-U 1 1 5FB28A65
-P 6500 3500
-F 0 "#PWR?" H 6500 3250 50  0001 C CNN
-F 1 "GNDD" H 6504 3345 50  0000 C CNN
-F 2 "" H 6500 3500 50  0001 C CNN
-F 3 "" H 6500 3500 50  0001 C CNN
-	1    6500 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 3500 6500 3400
 Wire Wire Line
@@ -294,17 +261,6 @@ F 3 "~" H 7050 3100 50  0001 C CNN
 	1    7050 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5FB307B6
-P 7050 3500
-F 0 "#PWR?" H 7050 3250 50  0001 C CNN
-F 1 "GNDD" H 7054 3345 50  0000 C CNN
-F 2 "" H 7050 3500 50  0001 C CNN
-F 3 "" H 7050 3500 50  0001 C CNN
-	1    7050 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 3500 7050 3250
 Wire Wire Line
@@ -325,17 +281,6 @@ F 3 "~" H 4650 2300 50  0001 C CNN
 	1    4650 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5FB326B9
-P 4650 2000
-F 0 "#PWR?" H 4650 1750 50  0001 C CNN
-F 1 "GNDD" H 4654 1845 50  0000 C CNN
-F 2 "" H 4650 2000 50  0001 C CNN
-F 3 "" H 4650 2000 50  0001 C CNN
-	1    4650 2000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4650 2700 4650 2450
 Wire Wire Line
@@ -352,17 +297,6 @@ Wire Wire Line
 	7050 6050 4600 6050
 Wire Wire Line
 	7050 4650 4650 4650
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5FB385BF
-P 7050 5350
-F 0 "#PWR?" H 7050 5150 50  0001 C CNN
-F 1 "GNDPWR" V 7055 5242 50  0000 R CNN
-F 2 "" H 7050 5300 50  0001 C CNN
-F 3 "" H 7050 5300 50  0001 C CNN
-	1    7050 5350
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Transistor_BJT:2N2219 Q?
 U 1 1 5FB39FFD
@@ -384,5 +318,71 @@ F 2 "" V 5490 5440 50  0001 C CNN
 F 3 "~" H 5450 5450 50  0001 C CNN
 	1    5450 5450
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB4209F
+P 4650 2000
+F 0 "#PWR?" H 4650 1750 50  0001 C CNN
+F 1 "Earth" H 4650 1850 50  0001 C CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB43A29
+P 6500 3500
+F 0 "#PWR?" H 6500 3250 50  0001 C CNN
+F 1 "Earth" H 6500 3350 50  0001 C CNN
+F 2 "" H 6500 3500 50  0001 C CNN
+F 3 "~" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB44189
+P 7050 3500
+F 0 "#PWR?" H 7050 3250 50  0001 C CNN
+F 1 "Earth" H 7050 3350 50  0001 C CNN
+F 2 "" H 7050 3500 50  0001 C CNN
+F 3 "~" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB4461B
+P 1800 5300
+F 0 "#PWR?" H 1800 5050 50  0001 C CNN
+F 1 "Earth" H 1800 5150 50  0001 C CNN
+F 2 "" H 1800 5300 50  0001 C CNN
+F 3 "~" H 1800 5300 50  0001 C CNN
+	1    1800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB44FD5
+P 1750 3200
+F 0 "#PWR?" H 1750 2950 50  0001 C CNN
+F 1 "Earth" H 1750 3050 50  0001 C CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "~" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB4595E
+P 7100 5350
+F 0 "#PWR?" H 7100 5100 50  0001 C CNN
+F 1 "Earth" H 7100 5200 50  0001 C CNN
+F 2 "" H 7100 5350 50  0001 C CNN
+F 3 "~" H 7100 5350 50  0001 C CNN
+	1    7100 5350
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "Author: Justin Landseadel"
 $EndDescr
-$Comp
-L power:GNDD #PWR?
-U 1 1 5FAFD275
-P 4900 3600
-F 0 "#PWR?" H 4900 3350 50  0001 C CNN
-F 1 "GNDD" H 4904 3445 50  0000 C CNN
-F 2 "" H 4900 3600 50  0001 C CNN
-F 3 "" H 4900 3600 50  0001 C CNN
-	1    4900 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 3600 4900 3400
 $Comp
@@ -1223,17 +1212,6 @@ $EndComp
 Wire Wire Line
 	3250 2600 3150 2600
 $Comp
-L power:GNDD #PWR?
-U 1 1 5FB0AB54
-P 4500 3600
-F 0 "#PWR?" H 4500 3350 50  0001 C CNN
-F 1 "GNDD" H 4504 3445 50  0000 C CNN
-F 2 "" H 4500 3600 50  0001 C CNN
-F 3 "" H 4500 3600 50  0001 C CNN
-	1    4500 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5FB0BB55
 P 4050 2000
@@ -1291,17 +1269,6 @@ F 3 "~" H 6950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
-U 1 1 5FB0871A
-P 6950 3600
-F 0 "#PWR?" H 6950 3350 50  0001 C CNN
-F 1 "GNDD" H 6954 3445 50  0000 C CNN
-F 2 "" H 6950 3600 50  0001 C CNN
-F 3 "" H 6950 3600 50  0001 C CNN
-	1    6950 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L LP2951CNNOPB:LP2951CN_NOPB U?
 U 1 1 5FAFB14C
 P 4950 2400
@@ -1347,4 +1314,37 @@ F 3 "" H 4000 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 4400 4000 4400
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB3EFA0
+P 4500 3600
+F 0 "#PWR?" H 4500 3350 50  0001 C CNN
+F 1 "Earth" H 4500 3450 50  0001 C CNN
+F 2 "" H 4500 3600 50  0001 C CNN
+F 3 "~" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB3FD3B
+P 4900 3600
+F 0 "#PWR?" H 4900 3350 50  0001 C CNN
+F 1 "Earth" H 4900 3450 50  0001 C CNN
+F 2 "" H 4900 3600 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB40036
+P 6950 3600
+F 0 "#PWR?" H 6950 3350 50  0001 C CNN
+F 1 "Earth" H 6950 3450 50  0001 C CNN
+F 2 "" H 6950 3600 50  0001 C CNN
+F 3 "~" H 6950 3600 50  0001 C CNN
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
