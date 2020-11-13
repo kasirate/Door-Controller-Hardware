@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# RFD14N05L
+#
+DEF RFD14N05L U 0 40 N N 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "RFD14N05L" 0 0 50 H I L BNN
+F2 "TO-252AA" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 100 -100 -98 N
+P 2 0 0 10 -60 100 -60 80 N
+P 2 0 0 10 -60 80 -60 60 N
+P 2 0 0 10 -60 20 -60 0 N
+P 2 0 0 10 -60 0 -60 -20 N
+P 2 0 0 10 -60 -60 -60 -90 N
+P 2 0 0 10 -60 -90 -60 -100 N
+P 2 0 0 10 -60 0 -30 20 N
+P 2 0 0 10 -30 20 -30 0 N
+P 2 0 0 10 -30 0 -30 -20 N
+P 2 0 0 10 -30 -20 -60 0 N
+P 2 0 0 10 -30 0 0 0 N
+P 2 0 0 10 0 0 0 -90 N
+P 2 0 0 10 0 -90 -60 -90 N
+P 2 0 0 10 -60 80 0 80 N
+P 2 0 0 10 0 80 0 100 N
+P 2 0 0 10 0 100 0 170 N
+P 2 0 0 10 0 -90 0 -110 N
+P 2 0 0 10 0 -110 0 -170 N
+P 2 0 0 10 0 100 50 100 N
+P 2 0 0 10 50 100 50 40 N
+P 2 0 0 10 50 40 30 40 N
+P 2 0 0 10 50 40 70 40 N
+P 2 0 0 10 50 40 70 20 N
+P 2 0 0 10 70 20 50 20 N
+P 2 0 0 10 50 20 30 20 N
+P 2 0 0 10 30 20 50 40 N
+P 2 0 0 10 50 20 50 -110 N
+P 2 0 0 10 50 -110 0 -110 N
+T 0 20 200 40 0 0 0 D Normal 0 L B
+T 0 20 -230 40 0 0 0 S Normal 0 L B
+T 0 -250 -80 40 0 0 0 G Normal 0 L B
+C -10 0 178 0 0 10 N
+X ~ 1 -300 -100 200 R 40 40 0 0 B 
+X ~ 4 0 300 200 D 40 40 0 0 B 
+X ~ 3 0 -301 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
