@@ -1313,7 +1313,7 @@ F 3 "" H 4000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4400 4000 4400
+	3200 4400 3650 4400
 $Comp
 L power:Earth #PWR?
 U 1 1 5FB3EFA0
@@ -1347,4 +1347,76 @@ F 3 "~" H 6950 3600 50  0001 C CNN
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB45EE4
+P 3650 5400
+F 0 "#PWR?" H 3650 5150 50  0001 C CNN
+F 1 "Earth" H 3650 5250 50  0001 C CNN
+F 2 "" H 3650 5400 50  0001 C CNN
+F 3 "~" H 3650 5400 50  0001 C CNN
+	1    3650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FB46934
+P 3650 4700
+F 0 "R?" H 3718 4746 50  0000 L CNN
+F 1 "R_US" H 3718 4655 50  0000 L CNN
+F 2 "" V 3690 4690 50  0001 C CNN
+F 3 "~" H 3650 4700 50  0001 C CNN
+	1    3650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FB47867
+P 3650 5150
+F 0 "R?" H 3718 5196 50  0000 L CNN
+F 1 "R_US" H 3718 5105 50  0000 L CNN
+F 2 "" V 3690 5140 50  0001 C CNN
+F 3 "~" H 3650 5150 50  0001 C CNN
+	1    3650 5150
+	1    0    0    -1  
+$EndComp
+Text HLabel 4250 4950 2    50   Output ~ 0
+12V_SNS
+Wire Wire Line
+	3650 5400 3650 5350
+Wire Wire Line
+	3650 5000 3650 4950
+Wire Wire Line
+	3650 4550 3650 4400
+Connection ~ 3650 4400
+Wire Wire Line
+	3650 4400 4000 4400
+Wire Wire Line
+	4250 4950 4050 4950
+Connection ~ 3650 4950
+Wire Wire Line
+	3650 4950 3650 4850
+$Comp
+L Device:C C?
+U 1 1 5FB49CED
+P 4050 5150
+F 0 "C?" H 4165 5196 50  0000 L CNN
+F 1 "C" H 4165 5105 50  0000 L CNN
+F 2 "" H 4088 5000 50  0001 C CNN
+F 3 "~" H 4050 5150 50  0001 C CNN
+	1    4050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5000 4050 4950
+Connection ~ 4050 4950
+Wire Wire Line
+	4050 4950 3650 4950
+Wire Wire Line
+	4050 5300 4050 5350
+Wire Wire Line
+	4050 5350 3650 5350
+Connection ~ 3650 5350
+Wire Wire Line
+	3650 5350 3650 5300
 $EndSCHEMATC
