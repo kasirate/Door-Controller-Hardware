@@ -4,4 +4,5 @@
   (lib (name LP2951CNNOPB)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/LP2951CNNOPB.lib)(options "")(descr ""))
   (lib (name MCP2551-I_P)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/MCP2551-I_P.lib)(options "")(descr ""))
   (lib (name RFD14N05L)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/RFD14N05L.lib)(options "")(descr ""))
+  (lib (name TLV272IPG4)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/TLV272IPG4.lib)(options "")(descr ""))
 )
