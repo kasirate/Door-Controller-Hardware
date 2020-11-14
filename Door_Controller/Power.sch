@@ -1248,8 +1248,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 2400 4950 2400
 Wire Wire Line
-	4500 2700 4700 2700
-Wire Wire Line
 	4900 3400 4950 3400
 Wire Wire Line
 	3150 2800 4950 2800
@@ -1292,13 +1290,6 @@ Wire Wire Line
 Connection ~ 4900 2600
 Wire Wire Line
 	4900 2600 4950 2600
-Wire Wire Line
-	4950 3000 4700 3000
-Wire Wire Line
-	4700 3000 4700 2700
-Connection ~ 4700 2700
-Wire Wire Line
-	4700 2700 4950 2700
 Text Label 3200 4400 0    50   ~ 0
 BATT_P
 $Comp
@@ -1419,4 +1410,6 @@ Wire Wire Line
 Connection ~ 3650 5350
 Wire Wire Line
 	3650 5350 3650 5300
+Wire Wire Line
+	4500 2700 4950 2700
 $EndSCHEMATC
