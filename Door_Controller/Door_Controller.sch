@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Door Controller - Top Level"
 Date "2020-11-12"
 Rev "0.9"
@@ -52,5 +52,11 @@ F10 "CANTX" I L 4700 2700 50
 F11 "CANRX" O L 4700 2600 50 
 F12 "CANH_OUT" B R 6000 2800 50 
 F13 "CANL_OUT" B R 6000 2900 50 
+$EndSheet
+$Sheet
+S 2500 4150 1750 1350
+U 5FB4C28C
+F0 "Motor_Control" 50
+F1 "Motor_Control.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,261 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DRV8873SPWPR:DRV8873SPWPR U?
+U 1 1 5FB2458A
+P 2800 4550
+F 0 "U?" H 3800 4937 60  0000 C CNN
+F 1 "DRV8873SPWPR" H 3800 4831 60  0000 C CNN
+F 2 "PWP24_TEX" H 3800 4790 60  0001 C CNN
+F 3 "" H 2800 4550 60  0000 C CNN
+	1    2800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8873SPWPR:DRV8873SPWPR U?
+U 2 1 5FB27F8F
+P 2850 2100
+F 0 "U?" H 4178 1953 60  0000 L CNN
+F 1 "DRV8873SPWPR" H 4178 1847 60  0000 L CNN
+F 2 "PWP24_TEX" H 3850 2340 60  0001 C CNN
+F 3 "" H 2850 2100 60  0000 C CNN
+	2    2850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB2ADB8
+P 1950 5400
+F 0 "C?" H 2065 5446 50  0000 L CNN
+F 1 "47uF" H 2065 5355 50  0000 L CNN
+F 2 "" H 1988 5250 50  0001 C CNN
+F 3 "~" H 1950 5400 50  0001 C CNN
+	1    1950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5250 2800 5250
+Wire Wire Line
+	2800 5250 2800 5350
+Wire Wire Line
+	2800 5450 2350 5450
+Wire Wire Line
+	2350 5450 2350 5550
+Wire Wire Line
+	2350 5550 1950 5550
+$Comp
+L power:+5V #PWR?
+U 1 1 5FB2C8BD
+P 2500 2100
+F 0 "#PWR?" H 2500 1950 50  0001 C CNN
+F 1 "+5V" H 2515 2273 50  0000 C CNN
+F 2 "" H 2500 2100 50  0001 C CNN
+F 3 "" H 2500 2100 50  0001 C CNN
+	1    2500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB2D964
+P 2700 1800
+F 0 "C?" H 2815 1846 50  0000 L CNN
+F 1 "1uF" H 2815 1755 50  0000 L CNN
+F 2 "" H 2738 1650 50  0001 C CNN
+F 3 "~" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB2E59C
+P 2700 1450
+F 0 "#PWR?" H 2700 1200 50  0001 C CNN
+F 1 "Earth" H 2700 1300 50  0001 C CNN
+F 2 "" H 2700 1450 50  0001 C CNN
+F 3 "~" H 2700 1450 50  0001 C CNN
+	1    2700 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1450 2700 1650
+Wire Wire Line
+	2500 2100 2700 2100
+Wire Wire Line
+	2700 1950 2700 2100
+Connection ~ 2700 2100
+Wire Wire Line
+	2700 2100 2850 2100
+Text Notes 2750 1700 0    50   ~ 0
+Ceramic Cap
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB2F529
+P 5000 5950
+F 0 "#PWR?" H 5000 5700 50  0001 C CNN
+F 1 "Earth" H 5000 5800 50  0001 C CNN
+F 2 "" H 5000 5950 50  0001 C CNN
+F 3 "~" H 5000 5950 50  0001 C CNN
+	1    5000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5950 5000 5850
+Wire Wire Line
+	5000 5750 4800 5750
+Wire Wire Line
+	4800 5850 5000 5850
+Connection ~ 5000 5850
+Wire Wire Line
+	5000 5850 5000 5750
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB30275
+P 2500 2650
+F 0 "#PWR?" H 2500 2400 50  0001 C CNN
+F 1 "Earth" H 2500 2500 50  0001 C CNN
+F 2 "" H 2500 2650 50  0001 C CNN
+F 3 "~" H 2500 2650 50  0001 C CNN
+	1    2500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2650 2500 2500
+Wire Wire Line
+	2500 2500 2850 2500
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB3105D
+P 2100 2850
+F 0 "#PWR?" H 2100 2600 50  0001 C CNN
+F 1 "Earth" H 2100 2700 50  0001 C CNN
+F 2 "" H 2100 2850 50  0001 C CNN
+F 3 "~" H 2100 2850 50  0001 C CNN
+	1    2100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB315A8
+P 1650 1850
+F 0 "#PWR?" H 1650 1600 50  0001 C CNN
+F 1 "Earth" H 1650 1700 50  0001 C CNN
+F 2 "" H 1650 1850 50  0001 C CNN
+F 3 "~" H 1650 1850 50  0001 C CNN
+	1    1650 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB3207A
+P 2100 2600
+F 0 "C?" H 2215 2646 50  0000 L CNN
+F 1 "1uF" H 2215 2555 50  0000 L CNN
+F 2 "" H 2138 2450 50  0001 C CNN
+F 3 "~" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2850 2100 2750
+Wire Wire Line
+	2100 2450 2100 2400
+Wire Wire Line
+	2100 2400 2850 2400
+$Comp
+L Device:C C?
+U 1 1 5FB37A2B
+P 1650 2100
+F 0 "C?" H 1765 2146 50  0000 L CNN
+F 1 "1uF" H 1765 2055 50  0000 L CNN
+F 2 "" H 1688 1950 50  0001 C CNN
+F 3 "~" H 1650 2100 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1850 1650 1950
+$Comp
+L Device:C C?
+U 1 1 5FB39B1A
+P 2050 2100
+F 0 "C?" H 2165 2146 50  0000 L CNN
+F 1 "1uF" H 2165 2055 50  0000 L CNN
+F 2 "" H 2088 1950 50  0001 C CNN
+F 3 "~" H 2050 2100 50  0001 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2200 2350 2200
+Wire Wire Line
+	2350 2200 2350 1950
+Wire Wire Line
+	2350 1950 2050 1950
+Wire Wire Line
+	2850 2300 2050 2300
+Wire Wire Line
+	2050 2300 2050 2250
+Wire Wire Line
+	2050 2300 1650 2300
+Wire Wire Line
+	1650 2300 1650 2250
+Connection ~ 2050 2300
+Text Notes 2100 2250 0    50   ~ 0
+Ceramic Cap
+Text Notes 1700 2000 0    50   ~ 0
+Ceramic Cap
+Text Notes 2200 2500 0    50   ~ 0
+Ceramic Cap
+Text HLabel 1100 2300 0    50   Input ~ 0
++12V_Window
+Connection ~ 2100 2400
+Connection ~ 1650 2300
+Text Notes 500  2500 0    50   ~ 0
+Large Trace
+Wire Wire Line
+	1450 2300 1100 2300
+Connection ~ 1450 2300
+Wire Wire Line
+	1450 2400 1450 2300
+Wire Wire Line
+	2100 2400 1450 2400
+Wire Wire Line
+	1650 2300 1450 2300
+Wire Notes Line
+	1500 2500 1500 2200
+Wire Notes Line
+	1500 2200 500  2200
+Wire Notes Line
+	500  2200 500  2500
+Wire Notes Line
+	500  2500 1500 2500
+Text HLabel 2350 5150 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 2350 5050 0    50   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	2350 5150 2800 5150
+Wire Wire Line
+	2350 5050 2800 5050
+Text HLabel 5000 5550 2    50   Output ~ 0
+SPI_MISO
+Wire Wire Line
+	5000 5550 4800 5550
+Text HLabel 2350 4750 0    50   Input ~ 0
+SPI_nCS_Window
+Wire Wire Line
+	2350 4750 2800 4750
+$EndSCHEMATC
