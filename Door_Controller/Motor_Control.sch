@@ -258,4 +258,37 @@ Text HLabel 2350 4750 0    50   Input ~ 0
 SPI_nCS_Window
 Wire Wire Line
 	2350 4750 2800 4750
+Text HLabel 5050 4550 2    50   Input ~ 0
+Fused_12V_Window
+Wire Wire Line
+	5050 4550 4950 4550
+Wire Wire Line
+	4800 4650 4950 4650
+Wire Wire Line
+	4950 4650 4950 4550
+Connection ~ 4950 4550
+Wire Wire Line
+	4950 4550 4800 4550
+Text HLabel 5000 5050 2    50   BiDi ~ 0
+Motor_Window+
+Text HLabel 5000 5250 2    50   BiDi ~ 0
+Motor_Window-
+Wire Wire Line
+	5000 5050 4900 5050
+Wire Wire Line
+	5000 5250 4900 5250
+Wire Wire Line
+	4800 5350 4900 5350
+Wire Wire Line
+	4900 5350 4900 5250
+Connection ~ 4900 5250
+Wire Wire Line
+	4900 5250 4800 5250
+Wire Wire Line
+	4800 5150 4900 5150
+Wire Wire Line
+	4900 5150 4900 5050
+Connection ~ 4900 5050
+Wire Wire Line
+	4900 5050 4800 5050
 $EndSCHEMATC
