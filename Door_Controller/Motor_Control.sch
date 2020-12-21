@@ -242,13 +242,13 @@ Connection ~ 4900 5050
 $Comp
 L power:Earth #PWR?
 U 1 1 5FB97E86
-P 5300 4650
-F 0 "#PWR?" H 5300 4400 50  0001 C CNN
-F 1 "Earth" H 5300 4500 50  0001 C CNN
-F 2 "" H 5300 4650 50  0001 C CNN
-F 3 "~" H 5300 4650 50  0001 C CNN
-	1    5300 4650
-	0    -1   -1   0   
+P 5400 3750
+F 0 "#PWR?" H 5400 3500 50  0001 C CNN
+F 1 "Earth" H 5400 3600 50  0001 C CNN
+F 2 "" H 5400 3750 50  0001 C CNN
+F 3 "~" H 5400 3750 50  0001 C CNN
+	1    5400 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:CP1 C?
@@ -306,8 +306,6 @@ Wire Notes Line
 	2500 5900 3050 5900
 Wire Notes Line
 	3050 5900 3050 5500
-Text HLabel 5050 4300 2    50   Output ~ 0
-Window_Motor_Isns
 Wire Wire Line
 	2650 5550 2800 5550
 Wire Wire Line
@@ -334,45 +332,6 @@ Wire Wire Line
 	2350 5150 2800 5150
 Wire Wire Line
 	5000 5550 4800 5550
-$Comp
-L Device:R_US R?
-U 1 1 5FB94200
-P 4800 4050
-F 0 "R?" H 4868 4096 50  0000 L CNN
-F 1 "1.5K" H 4868 4005 50  0000 L CNN
-F 2 "" V 4840 4040 50  0001 C CNN
-F 3 "~" H 4800 4050 50  0001 C CNN
-	1    4800 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FB972EF
-P 4800 3750
-F 0 "#PWR?" H 4800 3500 50  0001 C CNN
-F 1 "Earth" H 4800 3600 50  0001 C CNN
-F 2 "" H 4800 3750 50  0001 C CNN
-F 3 "~" H 4800 3750 50  0001 C CNN
-	1    4800 3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4800 4650 4950 4650
-Wire Wire Line
-	4800 3900 4800 3750
-Connection ~ 4800 4300
-Wire Wire Line
-	4800 4300 4800 4200
-Wire Wire Line
-	4950 4650 4950 4300
-Connection ~ 4950 4650
-Wire Wire Line
-	4950 4650 5000 4650
-Connection ~ 4950 4300
-Wire Wire Line
-	4950 4300 4800 4300
-Wire Wire Line
-	5050 4300 4950 4300
 Text HLabel 5000 4950 2    50   Output ~ 0
 Window_Driver_nFault
 $Comp
@@ -408,29 +367,16 @@ Wire Wire Line
 Connection ~ 4850 4850
 Wire Wire Line
 	4850 4850 5000 4850
-Wire Wire Line
-	4800 4550 4800 4300
-$Comp
-L DRV8873SPWPR:DRV8873SPWPR U?
-U 1 1 5FB2458A
-P 2800 4550
-F 0 "U?" H 3800 4937 60  0000 C CNN
-F 1 "DRV8873SPWPR" H 3800 4831 60  0000 C CNN
-F 2 "PWP24_TEX" H 3800 4790 60  0001 C CNN
-F 3 "" H 2800 4550 60  0000 C CNN
-	1    2800 4550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5FB96318
-P 5150 4650
-F 0 "R?" V 4945 4650 50  0000 C CNN
-F 1 "1.5K" V 5036 4650 50  0000 C CNN
-F 2 "" V 5190 4640 50  0001 C CNN
-F 3 "~" H 5150 4650 50  0001 C CNN
-	1    5150 4650
-	0    1    1    0   
+P 5400 4050
+F 0 "R?" H 5500 4100 50  0000 C CNN
+F 1 "1.5K" H 5550 4000 50  0000 C CNN
+F 2 "" V 5440 4040 50  0001 C CNN
+F 3 "~" H 5400 4050 50  0001 C CNN
+	1    5400 4050
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
@@ -559,4 +505,65 @@ Wire Wire Line
 Connection ~ 2500 4550
 Wire Wire Line
 	2500 4550 2800 4550
+Wire Wire Line
+	4800 4650 5400 4650
+Wire Wire Line
+	5400 4650 5400 4450
+Wire Wire Line
+	5400 3900 5400 3750
+Text HLabel 4700 4350 1    50   Output ~ 0
+Window_Motor_Isns_POS
+Text HLabel 5250 4350 1    50   Output ~ 0
+Window_Motor_Isns_NEG
+Wire Wire Line
+	4800 4200 4800 4450
+$Comp
+L DRV8873SPWPR:DRV8873SPWPR U?
+U 1 1 5FB2458A
+P 2800 4550
+F 0 "U?" H 3800 4937 60  0000 C CNN
+F 1 "DRV8873SPWPR" H 3800 4831 60  0000 C CNN
+F 2 "PWP24_TEX" H 3800 4790 60  0001 C CNN
+F 3 "" H 2800 4550 60  0000 C CNN
+	1    2800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3900 4800 3750
+$Comp
+L power:Earth #PWR?
+U 1 1 5FB972EF
+P 4800 3750
+F 0 "#PWR?" H 4800 3500 50  0001 C CNN
+F 1 "Earth" H 4800 3600 50  0001 C CNN
+F 2 "" H 4800 3750 50  0001 C CNN
+F 3 "~" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FB94200
+P 4800 4050
+F 0 "R?" H 4868 4096 50  0000 L CNN
+F 1 "1.5K" H 4868 4005 50  0000 L CNN
+F 2 "" V 4840 4040 50  0001 C CNN
+F 3 "~" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4350
+Connection ~ 4800 4450
+Wire Wire Line
+	4800 4450 4800 4550
+Wire Wire Line
+	5250 4350 5250 4450
+Wire Wire Line
+	5250 4450 5400 4450
+Connection ~ 5400 4450
+Wire Wire Line
+	5400 4450 5400 4200
 $EndSCHEMATC
