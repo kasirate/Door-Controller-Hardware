@@ -225,20 +225,12 @@ Text HLabel 5000 5550 2    50   Output ~ 0
 SPI_MISO
 Text HLabel 2350 4750 0    50   Input ~ 0
 SPI_nCS_Window
-Text HLabel 5000 5050 2    50   BiDi ~ 0
+Text HLabel 5300 5050 2    50   BiDi ~ 0
 Motor_Window+
-Text HLabel 5000 5250 2    50   BiDi ~ 0
-Motor_Window-
-Wire Wire Line
-	5000 5050 4900 5050
-Wire Wire Line
-	5000 5250 4900 5250
 Wire Wire Line
 	4900 5350 4900 5250
-Connection ~ 4900 5250
 Wire Wire Line
 	4900 5150 4900 5050
-Connection ~ 4900 5050
 $Comp
 L power:Earth #PWR?
 U 1 1 5FB97E86
@@ -512,9 +504,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 3900 5400 3750
 Text HLabel 4700 4350 1    50   Output ~ 0
-Window_Motor_Isns_POS
+Window_Motor_Imon_POS
 Text HLabel 5250 4350 1    50   Output ~ 0
-Window_Motor_Isns_NEG
+Window_Motor_Imon_NEG
 Wire Wire Line
 	4800 4200 4800 4450
 $Comp
@@ -566,4 +558,12 @@ Wire Wire Line
 Connection ~ 5400 4450
 Wire Wire Line
 	5400 4450 5400 4200
+Text HLabel 5300 5350 2    50   BiDi ~ 0
+Motor_Window-
+Wire Wire Line
+	5300 5350 4900 5350
+Connection ~ 4900 5350
+Wire Wire Line
+	5300 5050 4900 5050
+Connection ~ 4900 5050
 $EndSCHEMATC
