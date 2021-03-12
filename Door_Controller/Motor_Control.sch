@@ -194,12 +194,8 @@ Text Notes 1900 2050 1    50   ~ 0
 Ceramic Cap
 Text Notes 2300 2950 1    50   ~ 0
 Ceramic Cap
-Text HLabel 1400 2300 0    50   Input ~ 0
-Fused_12V_Window
 Connection ~ 2400 2400
 Connection ~ 1950 2300
-Text Notes 800  2500 0    50   ~ 0
-Large Trace
 Wire Wire Line
 	1750 2300 1550 2300
 Connection ~ 1750 2300
@@ -211,12 +207,6 @@ Wire Wire Line
 	1950 2300 1750 2300
 Wire Notes Line
 	1800 2500 1800 2200
-Wire Notes Line
-	1800 2200 800  2200
-Wire Notes Line
-	800  2200 800  2500
-Wire Notes Line
-	800  2500 1800 2500
 Text HLabel 2350 5150 0    50   Input ~ 0
 SPI_MOSI
 Text HLabel 2350 5050 0    50   Input ~ 0
@@ -566,4 +556,24 @@ Connection ~ 4900 5350
 Wire Wire Line
 	5300 5050 4900 5050
 Connection ~ 4900 5050
+Wire Notes Line
+	1800 2200 800  2200
+Text HLabel 1400 2300 0    50   Input ~ 0
+Fused_12V_Window
+Wire Notes Line
+	4550 5400 4550 5000
+Wire Notes Line
+	4550 5000 6000 5000
+Wire Notes Line
+	6000 5000 6000 5400
+Wire Notes Line
+	6000 5400 4550 5400
+Text Notes 800  2500 0    50   ~ 0
+Large Trace
+Wire Notes Line
+	800  2200 800  2500
+Wire Notes Line
+	800  2500 1800 2500
+Text Notes 5500 5250 0    50   ~ 0
+Large Traces
 $EndSCHEMATC
