@@ -28,6 +28,23 @@ fp-info-cache
 # *.csv
 
 ###############################################################################
+# LTSPICE IGNORE FILES
+###############################################################################
+
+# gitignore template for LTspice
+# website: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
+
+# Logfile
+Door_Controller/ltspice/*.log
+
+# Simulation Outputs
+Door_Controller/ltspice/*.raw
+Door_Controller/ltspice/*.fft
+
+# Netlist
+Door_Controller/ltspice/*.net
+
+###############################################################################
 # VISUAL STUDIO CODE IGNORE FILES
 ###############################################################################
 
