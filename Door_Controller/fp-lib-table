@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TSM8568CS_B1611)(type KiCad)(uri ${KIPRJMOD}/lib/footprints/TSM8568CS_B1611.pretty)(options "")(descr ""))
+)

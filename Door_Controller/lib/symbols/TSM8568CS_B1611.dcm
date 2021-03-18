@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSM8568CS_B1611
+D Pch Nch MOSFET (Vds 30 | Vgs 5-10V | Ic 13A)
+K MOSFET
+F https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf
+$ENDCMP
+#
+#End Doc Library
