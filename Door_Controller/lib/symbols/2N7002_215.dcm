@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002,215
+D MOSFET N-Channel 60V 0.3A TO236AB NXP 2N7002,215 N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin TO-236AB
+K
+F https://eu.mouser.com/datasheet/2/916/2N7002-1597487.pdf
+$ENDCMP
+#
+#End Doc Library

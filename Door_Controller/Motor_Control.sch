@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -576,4 +576,22 @@ Wire Notes Line
 	800  2500 1800 2500
 Text Notes 5500 5250 0    50   ~ 0
 Large Traces
+$Sheet
+S 7350 1900 500  800 
+U 60652F73
+F0 "Motor_Controller_Pole" 39
+F1 "Motor_Controller_Pole.sch" 39
+F2 "Motor_Output" B R 7850 2250 39 
+F3 "Motor_Input" B L 7350 2000 39 
+F4 "Drive" I L 7350 2450 39 
+$EndSheet
+$Sheet
+S 6300 1900 550  750 
+U 60669CB5
+F0 "Gate_12V" 39
+F1 "Gate_12V.sch" 39
+F2 "Input_Power" B L 6300 2000 39 
+F3 "Enable" I L 6300 2400 39 
+F4 "Output_Power" B R 6850 2200 39 
+$EndSheet
 $EndSCHEMATC

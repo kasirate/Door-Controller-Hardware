@@ -1,0 +1,243 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TSM8568CS_B1611:TSM8568CS_B1611 Q?
+U 2 1 6065772F
+P 4750 2600
+AR Path="/5FB4C28C/6065772F" Ref="Q?"  Part="2" 
+AR Path="/5FB4C28C/606144ED/6065772F" Ref="Q?"  Part="2" 
+AR Path="/5FB4C28C/60652F73/6065772F" Ref="Q?"  Part="2" 
+F 0 "Q?" H 5094 2600 50  0000 L CNN
+F 1 "TSM8568CS_B1611" H 5496 2664 50  0001 C CNN
+F 2 "TSM8568CS_B1611:TSM8568CS_B1611" H 4740 2602 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf" H 4740 2602 50  0001 C CNN
+	2    4750 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 2800 2    50   BiDi ~ 0
+Motor_Output
+Wire Wire Line
+	4950 2800 5050 2800
+Connection ~ 5050 2800
+Wire Wire Line
+	5150 2800 5050 2800
+$Comp
+L TSM8568CS_B1611:TSM8568CS_B1611 Q?
+U 1 1 6065773C
+P 4750 4000
+AR Path="/5FB4C28C/6065773C" Ref="Q?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/6065773C" Ref="Q?"  Part="1" 
+AR Path="/5FB4C28C/60652F73/6065773C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5094 4000 50  0000 L CNN
+F 1 "TSM8568CS_B1611" H 5496 4064 50  0001 C CNN
+F 2 "TSM8568CS_B1611:TSM8568CS_B1611" H 4740 4002 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf" H 4740 4002 50  0001 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3800 4950 3800
+Connection ~ 5050 3800
+$Comp
+L Device:R R?
+U 1 1 60657745
+P 4350 2600
+AR Path="/5FB4C28C/60657745" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/60657745" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60652F73/60657745" Ref="R?"  Part="1" 
+F 0 "R?" V 4450 2600 50  0000 C CNN
+F 1 "R" V 4350 2600 50  0000 C CNN
+F 2 "" V 4280 2600 50  0001 C CNN
+F 3 "~" H 4350 2600 50  0001 C CNN
+	1    4350 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2600 4600 2600
+Wire Wire Line
+	4200 2600 4100 2600
+Wire Wire Line
+	4100 2600 4100 2400
+Connection ~ 4100 2400
+Wire Wire Line
+	4100 2400 4950 2400
+$Comp
+L Device:R R?
+U 1 1 60657752
+P 4600 3050
+AR Path="/5FB4C28C/60657752" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/60657752" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60652F73/60657752" Ref="R?"  Part="1" 
+F 0 "R?" V 4700 3000 50  0000 L CNN
+F 1 "R" V 4600 3000 50  0000 L CNN
+F 2 "" V 4530 3050 50  0001 C CNN
+F 3 "~" H 4600 3050 50  0001 C CNN
+	1    4600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2900 4600 2600
+Connection ~ 4600 2600
+Wire Wire Line
+	4600 2600 4750 2600
+Text Notes 4500 3350 1    39   ~ 0
+Ratio 2:1 <> 1.25:1
+$Comp
+L Device:R R?
+U 1 1 60657763
+P 6500 3750
+AR Path="/5FB4C28C/60657763" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/60657763" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60652F73/60657763" Ref="R?"  Part="1" 
+F 0 "R?" V 6600 3750 50  0000 C CNN
+F 1 "100" V 6500 3750 50  0000 C CNN
+F 2 "" V 6430 3750 50  0001 C CNN
+F 3 "~" H 6500 3750 50  0001 C CNN
+	1    6500 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 2400 4100 2400
+Wire Wire Line
+	5050 2800 5050 3800
+Text HLabel 4000 2400 0    50   BiDi ~ 0
+Motor_Input
+$Comp
+L power:Earth #PWR?
+U 1 1 60658886
+P 4950 4450
+F 0 "#PWR?" H 4950 4200 50  0001 C CNN
+F 1 "Earth" H 4950 4300 50  0001 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "~" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4200 4950 4450
+$Comp
+L power:Earth #PWR?
+U 1 1 6065D388
+P 2900 3550
+F 0 "#PWR?" H 2900 3300 50  0001 C CNN
+F 1 "Earth" H 2900 3400 50  0001 C CNN
+F 2 "" H 2900 3550 50  0001 C CNN
+F 3 "~" H 2900 3550 50  0001 C CNN
+	1    2900 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3550 4600 3200
+$Comp
+L SN74LV1T04DCKR:SN74LV1T04DCKR U?
+U 1 1 6065FAA7
+P 7800 3750
+F 0 "U?" H 7850 4536 60  0000 C CNN
+F 1 "SN74LV1T04DCKR" H 7850 4430 60  0000 C CNN
+F 2 "DCK0005A_N" H 7800 3690 60  0001 C CNN
+F 3 "" H 7800 3750 60  0000 C CNN
+	1    7800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60661651
+P 6850 3350
+F 0 "#PWR?" H 6850 3200 50  0001 C CNN
+F 1 "+5V" H 6865 3523 50  0000 C CNN
+F 2 "" H 6850 3350 50  0001 C CNN
+F 3 "" H 6850 3350 50  0001 C CNN
+	1    6850 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7100 4150
+$Comp
+L power:Earth #PWR?
+U 1 1 60662854
+P 8800 4350
+F 0 "#PWR?" H 8800 4100 50  0001 C CNN
+F 1 "Earth" H 8800 4200 50  0001 C CNN
+F 2 "" H 8800 4350 50  0001 C CNN
+F 3 "~" H 8800 4350 50  0001 C CNN
+	1    8800 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 6100 3750 0    39   Input ~ 0
+Drive
+Wire Wire Line
+	6100 3750 6350 3750
+Wire Wire Line
+	7100 3350 6850 3350
+Wire Wire Line
+	8600 4150 8800 4150
+Wire Wire Line
+	8800 4150 8800 4350
+Text Label 7000 3750 2    39   ~ 0
+Drive_High
+Text Label 9500 3750 2    39   ~ 0
+Drive_Low
+Wire Wire Line
+	6650 3750 7100 3750
+$Comp
+L Device:R R?
+U 1 1 60666436
+P 8950 3750
+AR Path="/5FB4C28C/60666436" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/60666436" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60652F73/60666436" Ref="R?"  Part="1" 
+F 0 "R?" V 9050 3750 50  0000 C CNN
+F 1 "100" V 8950 3750 50  0000 C CNN
+F 2 "" V 8880 3750 50  0001 C CNN
+F 3 "~" H 8950 3750 50  0001 C CNN
+	1    8950 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 3750 8600 3750
+Wire Wire Line
+	9100 3750 9500 3750
+Text Label 3400 3050 1    39   ~ 0
+Drive_High
+Text Label 4500 4000 2    39   ~ 0
+Drive_Low
+Wire Wire Line
+	4750 4000 4500 4000
+$Comp
+L 2N7002_215:2N7002,215 Q?
+U 1 1 60675630
+P 3400 3250
+F 0 "Q?" V 3875 3350 50  0000 C CNN
+F 1 "2N7002,215" V 3966 3350 50  0000 C CNN
+F 2 "SOT95P230X110-3N" H 3850 3200 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/916/2N7002-1597487.pdf" H 3850 3100 50  0001 L CNN
+F 4 "MOSFET N-Channel 60V 0.3A TO236AB NXP 2N7002,215 N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin TO-236AB" H 3850 3000 50  0001 L CNN "Description"
+F 5 "1.1" H 3850 2900 50  0001 L CNN "Height"
+F 6 "Nexperia" H 3850 2800 50  0001 L CNN "Manufacturer_Name"
+F 7 "2N7002,215" H 3850 2700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-2N7002-T/R" H 3850 2600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002215/?qs=P62ublwmbi9rRKKuNdhqMA%3D%3D" H 3850 2500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "2N7002,215" H 3850 2400 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/2n7002215/nexperia" H 3850 2300 50  0001 L CNN "Arrow Price/Stock"
+	1    3400 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3550 4600 3550
+Wire Wire Line
+	3200 3550 2900 3550
+Wire Wire Line
+	3400 3250 3400 3050
+$EndSCHEMATC
