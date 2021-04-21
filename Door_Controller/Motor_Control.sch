@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -577,13 +577,13 @@ Wire Notes Line
 Text Notes 5500 5250 0    50   ~ 0
 Large Traces
 $Sheet
-S 7350 1900 500  800 
+S 7250 1900 500  800 
 U 60652F73
-F0 "Motor_Controller_Pole" 39
+F0 "Lock_DriveA" 39
 F1 "Motor_Controller_Pole.sch" 39
-F2 "Motor_Output" B R 7850 2250 39 
-F3 "Motor_Input" B L 7350 2000 39 
-F4 "Drive" I L 7350 2450 39 
+F2 "Motor_Output" B R 7750 2250 39 
+F3 "Motor_Input" B L 7250 2000 39 
+F4 "Drive" I L 7250 2450 39 
 $EndSheet
 $Sheet
 S 6300 1900 550  750 
@@ -594,4 +594,26 @@ F2 "Input_Power" B L 6300 2000 39
 F3 "Enable" I L 6300 2400 39 
 F4 "Output_Power" B R 6850 2200 39 
 $EndSheet
+$Sheet
+S 7250 2900 500  800 
+U 60688E8B
+F0 "Lock_DriveB" 39
+F1 "Motor_Controller_Pole.sch" 39
+F2 "Motor_Output" B R 7750 3250 39 
+F3 "Motor_Input" B L 7250 3000 39 
+F4 "Drive" I L 7250 3450 39 
+$EndSheet
+Wire Wire Line
+	6850 2200 6900 2200
+Wire Wire Line
+	7050 2200 7050 2000
+Wire Wire Line
+	7050 2000 7250 2000
+Wire Wire Line
+	6900 2200 6900 3000
+Wire Wire Line
+	6900 3000 7250 3000
+Connection ~ 6900 2200
+Wire Wire Line
+	6900 2200 7050 2200
 $EndSCHEMATC
