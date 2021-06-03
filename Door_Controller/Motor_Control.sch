@@ -577,43 +577,149 @@ Wire Notes Line
 Text Notes 5500 5250 0    50   ~ 0
 Large Traces
 $Sheet
-S 7250 1900 500  800 
+S 8750 650  500  800 
 U 60652F73
 F0 "Lock_DriveA" 39
 F1 "Motor_Controller_Pole.sch" 39
-F2 "Motor_Output" B R 7750 2250 39 
-F3 "Motor_Input" B L 7250 2000 39 
-F4 "Drive" I L 7250 2450 39 
+F2 "Motor_Output" B R 9250 1000 39 
+F3 "Motor_Input" B L 8750 750 39 
+F4 "Drive" I L 8750 1200 39 
 $EndSheet
 $Sheet
-S 6300 1900 550  750 
-U 60669CB5
-F0 "Gate_12V" 39
-F1 "Gate_12V.sch" 39
-F2 "Input_Power" B L 6300 2000 39 
-F3 "Enable" I L 6300 2400 39 
-F4 "Output_Power" B R 6850 2200 39 
-$EndSheet
-$Sheet
-S 7250 2900 500  800 
+S 8750 1650 500  800 
 U 60688E8B
 F0 "Lock_DriveB" 39
 F1 "Motor_Controller_Pole.sch" 39
-F2 "Motor_Output" B R 7750 3250 39 
-F3 "Motor_Input" B L 7250 3000 39 
-F4 "Drive" I L 7250 3450 39 
+F2 "Motor_Output" B R 9250 2000 39 
+F3 "Motor_Input" B L 8750 1750 39 
+F4 "Drive" I L 8750 2200 39 
+$EndSheet
+Text HLabel 8650 2200 0    50   Input ~ 0
+Lock_Drive_B
+Text HLabel 9400 1000 2    50   Output ~ 0
+Lock_Motor_A
+Text HLabel 9400 2000 2    50   Output ~ 0
+Lock_Motor_B
+Wire Wire Line
+	8650 1200 8750 1200
+Wire Wire Line
+	8650 2200 8750 2200
+Wire Wire Line
+	9250 2000 9400 2000
+Wire Wire Line
+	9250 1000 9400 1000
+Wire Wire Line
+	6900 1200 7100 1200
+Text HLabel 8650 1200 0    50   Input ~ 0
+Lock_Drive_A
+Text HLabel 6900 1200 0    50   Input ~ 0
+Lock_Drive_Enable
+$Sheet
+S 7100 700  550  750 
+U 60669CB5
+F0 "Lock_Gate_12V" 39
+F1 "Gate_12V.sch" 39
+F2 "Input_Power" B L 7100 800 39 
+F3 "Enable" I L 7100 1200 39 
+F4 "Output_Power" B R 7650 1000 39 
 $EndSheet
 Wire Wire Line
-	6850 2200 6900 2200
+	6900 800  7100 800 
+Text HLabel 6900 800  0    50   Input ~ 0
+Fused_12V_Lock
 Wire Wire Line
-	7050 2200 7050 2000
+	7100 3450 7300 3450
+Text HLabel 7100 3450 0    50   Input ~ 0
+Mirror_Drive_Enable
+$Sheet
+S 7300 2950 550  750 
+U 60BA7C5A
+F0 "Mirror_Gate_12V" 39
+F1 "Gate_12V.sch" 39
+F2 "Input_Power" B L 7300 3050 39 
+F3 "Enable" I L 7300 3450 39 
+F4 "Output_Power" B R 7850 3250 39 
+$EndSheet
 Wire Wire Line
-	7050 2000 7250 2000
+	7100 3050 7300 3050
+Text HLabel 7100 3050 0    50   Input ~ 0
+Fused_12V_Mirror
+$Sheet
+S 9300 2950 500  800 
+U 60BAB905
+F0 "Mirror_Drive_H" 39
+F1 "Motor_Controller_Pole.sch" 39
+F2 "Motor_Output" B R 9800 3300 39 
+F3 "Motor_Input" B L 9300 3050 39 
+F4 "Drive" I L 9300 3500 39 
+$EndSheet
+Text HLabel 9950 3300 2    50   Output ~ 0
+Mirror_Motor_H
 Wire Wire Line
-	6900 2200 6900 3000
+	9200 3500 9300 3500
 Wire Wire Line
-	6900 3000 7250 3000
-Connection ~ 6900 2200
+	9800 3300 9950 3300
+Text HLabel 9200 3500 0    50   Input ~ 0
+Mirror_Drive_H
 Wire Wire Line
-	6900 2200 7050 2200
+	7900 1000 7900 750 
+Wire Wire Line
+	7900 750  8750 750 
+Wire Wire Line
+	7650 1000 7900 1000
+Wire Wire Line
+	8750 1750 7900 1750
+Wire Wire Line
+	7900 1750 7900 1000
+Connection ~ 7900 1000
+$Sheet
+S 9300 4150 500  800 
+U 60BC94D7
+F0 "Mirror_Drive_C" 39
+F1 "Motor_Controller_Pole.sch" 39
+F2 "Motor_Output" B R 9800 4500 39 
+F3 "Motor_Input" B L 9300 4250 39 
+F4 "Drive" I L 9300 4700 39 
+$EndSheet
+Text HLabel 9950 4500 2    50   Output ~ 0
+Lock_Motor_C
+Wire Wire Line
+	9200 4700 9300 4700
+Wire Wire Line
+	9800 4500 9950 4500
+Text HLabel 9200 4700 0    50   Input ~ 0
+Mirror_Drive_Common
+$Sheet
+S 9300 5300 500  800 
+U 60BCBDD0
+F0 "Mirror_Drive_V" 39
+F1 "Motor_Controller_Pole.sch" 39
+F2 "Motor_Output" B R 9800 5650 39 
+F3 "Motor_Input" B L 9300 5400 39 
+F4 "Drive" I L 9300 5850 39 
+$EndSheet
+Text HLabel 9950 5650 2    50   Output ~ 0
+Lock_Motor_V
+Wire Wire Line
+	9200 5850 9300 5850
+Wire Wire Line
+	9800 5650 9950 5650
+Text HLabel 9200 5850 0    50   Input ~ 0
+Motor_Drive_V
+Wire Wire Line
+	7850 3250 8100 3250
+Wire Wire Line
+	8100 3250 8100 3050
+Wire Wire Line
+	8100 3050 9300 3050
+Wire Wire Line
+	9300 4250 8100 4250
+Wire Wire Line
+	8100 4250 8100 3250
+Connection ~ 8100 3250
+Wire Wire Line
+	9300 5400 8100 5400
+Wire Wire Line
+	8100 5400 8100 4250
+Connection ~ 8100 4250
 $EndSCHEMATC
