@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 12
 Title ""
 Date ""
 Rev ""
@@ -682,7 +682,7 @@ F3 "Motor_Input" B L 9300 4250 39
 F4 "Drive" I L 9300 4700 39 
 $EndSheet
 Text HLabel 9950 4500 2    50   Output ~ 0
-Lock_Motor_C
+Mirror_Motor_C
 Wire Wire Line
 	9200 4700 9300 4700
 Wire Wire Line
@@ -699,7 +699,7 @@ F3 "Motor_Input" B L 9300 5400 39
 F4 "Drive" I L 9300 5850 39 
 $EndSheet
 Text HLabel 9950 5650 2    50   Output ~ 0
-Lock_Motor_V
+Mirror_Motor_V
 Wire Wire Line
 	9200 5850 9300 5850
 Wire Wire Line
