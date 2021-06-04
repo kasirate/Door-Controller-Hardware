@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 14
 Title "Door Controller - Top Level"
 Date "2020-11-12"
 Rev "0.9"
@@ -77,5 +77,11 @@ F23 "Mirror_Motor_C" O R 4000 6200 50
 F24 "Mirror_Drive_Common" I L 2500 6200 50 
 F25 "Mirror_Motor_V" O R 4000 6300 50 
 F26 "Motor_Drive_V" I L 2500 6300 50 
+$EndSheet
+$Sheet
+S 7200 1850 1100 1600
+U 60BD8BC8
+F0 "Wake_Logic" 50
+F1 "Wake_Logic.sch" 50
 $EndSheet
 $EndSCHEMATC
