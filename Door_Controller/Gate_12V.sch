@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 8 14
 Title ""
 Date ""
 Rev ""
@@ -30,8 +30,6 @@ F 3 "https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf" H 
 $EndComp
 Wire Wire Line
 	5200 2550 5200 2450
-Wire Wire Line
-	5200 2450 5450 2450
 Connection ~ 5200 2450
 $Comp
 L Device:R R?
@@ -48,25 +46,10 @@ F 3 "~" H 4500 2800 50  0001 C CNN
 	1    4500 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L TSM8568CS_B1611:TSM8568CS_B1611 Q?
-U 1 1 6066CE16
-P 4800 4050
-AR Path="/5FB4C28C/6066CE16" Ref="Q?"  Part="1" 
-AR Path="/5FB4C28C/606144ED/6066CE16" Ref="Q?"  Part="1" 
-AR Path="/5FB4C28C/60669CB5/6066CE16" Ref="Q?"  Part="1" 
-AR Path="/5FB4C28C/60BA7C5A/6066CE16" Ref="Q?"  Part="1" 
-F 0 "Q?" V 5200 3900 50  0000 L CNN
-F 1 "TSM8568CS_B1611" H 5546 4114 50  0001 C CNN
-F 2 "TSM8568CS_B1611:TSM8568CS_B1611" H 4790 4052 50  0001 C CNN
-F 3 "https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf" H 4790 4052 50  0001 C CNN
-	1    4800 4050
-	1    0    0    -1  
-$EndComp
-Text HLabel 4400 2550 0    50   BiDi ~ 0
+Text HLabel 3700 2550 0    50   BiDi ~ 0
 Input_Power
 Wire Wire Line
-	4400 2550 4500 2550
+	3700 2550 4000 2550
 Wire Wire Line
 	4500 2650 4500 2550
 Connection ~ 4500 2550
@@ -107,68 +90,138 @@ F 3 "~" H 5000 3400 50  0001 C CNN
 $EndComp
 Text Notes 4350 3200 0    39   ~ 0
 Ratio 2:1 <> 1.25:1
+Text HLabel 5700 2450 2    50   BiDi ~ 0
+Output_Power
+Wire Wire Line
+	5200 2450 5700 2450
+$Comp
+L power:Earth #PWR?
+U 1 1 6066DAA4
+P 5000 4700
+AR Path="/5FB4C28C/60669CB5/6066DAA4" Ref="#PWR?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/6066DAA4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 4450 50  0001 C CNN
+F 1 "Earth" H 5000 4550 50  0001 C CNN
+F 2 "" H 5000 4700 50  0001 C CNN
+F 3 "~" H 5000 4700 50  0001 C CNN
+	1    5000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4700 5000 4250
+$Comp
+L Device:C C?
+U 1 1 612B74C7
+P 4450 4350
+AR Path="/5FB4C28C/60669CB5/612B74C7" Ref="C?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/612B74C7" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 4396 50  0000 L CNN
+F 1 "C" H 4565 4305 50  0000 L CNN
+F 2 "" H 4488 4200 50  0001 C CNN
+F 3 "~" H 4450 4350 50  0001 C CNN
+	1    4450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TSM8568CS_B1611:TSM8568CS_B1611 Q?
+U 1 1 6066CE16
+P 4800 4050
+AR Path="/5FB4C28C/6066CE16" Ref="Q?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/6066CE16" Ref="Q?"  Part="1" 
+AR Path="/5FB4C28C/60669CB5/6066CE16" Ref="Q?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/6066CE16" Ref="Q?"  Part="1" 
+F 0 "Q?" V 5200 3900 50  0000 L CNN
+F 1 "TSM8568CS_B1611" H 5546 4114 50  0001 C CNN
+F 2 "TSM8568CS_B1611:TSM8568CS_B1611" H 4790 4052 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/assets/uploads/datasheet/TSM8568CS_B1611.pdf" H 4790 4052 50  0001 C CNN
+	1    4800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4050 3850 4050
+Text HLabel 3700 4050 0    39   Input ~ 0
+Enable
+Wire Wire Line
+	4150 4050 4450 4050
 $Comp
 L Device:R R?
 U 1 1 6066CE3D
-P 4550 4050
+P 4000 4050
 AR Path="/5FB4C28C/6066CE3D" Ref="R?"  Part="1" 
 AR Path="/5FB4C28C/606144ED/6066CE3D" Ref="R?"  Part="1" 
 AR Path="/5FB4C28C/60669CB5/6066CE3D" Ref="R?"  Part="1" 
 AR Path="/5FB4C28C/60BA7C5A/6066CE3D" Ref="R?"  Part="1" 
-F 0 "R?" V 4650 4050 50  0000 C CNN
-F 1 "100" V 4550 4050 50  0000 C CNN
-F 2 "" V 4480 4050 50  0001 C CNN
-F 3 "~" H 4550 4050 50  0001 C CNN
-	1    4550 4050
+F 0 "R?" V 4100 4050 50  0000 C CNN
+F 1 "100" V 4000 4050 50  0000 C CNN
+F 2 "" V 3930 4050 50  0001 C CNN
+F 3 "~" H 4000 4050 50  0001 C CNN
+	1    4000 4050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4700 4050 4800 4050
-Text HLabel 4200 4050 0    39   Input ~ 0
-Enable
-Wire Wire Line
-	4200 4050 4400 4050
-$Comp
-L Device:D_Zener D?
-U 1 1 6066CE46
-P 5450 3300
-AR Path="/5FB4C28C/606144ED/6066CE46" Ref="D?"  Part="1" 
-AR Path="/5FB4C28C/60669CB5/6066CE46" Ref="D?"  Part="1" 
-AR Path="/5FB4C28C/60BA7C5A/6066CE46" Ref="D?"  Part="1" 
-F 0 "D?" V 5404 3379 50  0000 L CNN
-F 1 "(15V)" V 5495 3379 50  0000 L CNN
-F 2 "" H 5450 3300 50  0001 C CNN
-F 3 "~" H 5450 3300 50  0001 C CNN
-	1    5450 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5450 3150 5450 2450
-Wire Wire Line
-	5450 3450 5450 4250
-Wire Wire Line
-	5450 4250 5250 4250
 $Comp
 L power:Earth #PWR?
-U 1 1 6066DAA4
-P 5250 4400
-AR Path="/5FB4C28C/60669CB5/6066DAA4" Ref="#PWR?"  Part="1" 
-AR Path="/5FB4C28C/60BA7C5A/6066DAA4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5250 4150 50  0001 C CNN
-F 1 "Earth" H 5250 4250 50  0001 C CNN
-F 2 "" H 5250 4400 50  0001 C CNN
-F 3 "~" H 5250 4400 50  0001 C CNN
-	1    5250 4400
+U 1 1 612BBD91
+P 4450 4700
+AR Path="/5FB4C28C/60669CB5/612BBD91" Ref="#PWR?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/612BBD91" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 4450 50  0001 C CNN
+F 1 "Earth" H 4450 4550 50  0001 C CNN
+F 2 "" H 4450 4700 50  0001 C CNN
+F 3 "~" H 4450 4700 50  0001 C CNN
+	1    4450 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 4400 5250 4250
-Connection ~ 5250 4250
+	4450 4700 4450 4500
 Wire Wire Line
-	5250 4250 5000 4250
-Text HLabel 5700 2450 2    50   BiDi ~ 0
-Output_Power
+	4450 4200 4450 4050
+Connection ~ 4450 4050
 Wire Wire Line
-	5700 2450 5450 2450
-Connection ~ 5450 2450
+	4450 4050 4800 4050
+$Comp
+L Device:C C?
+U 1 1 612BE1FE
+P 4000 2800
+AR Path="/5FB4C28C/60669CB5/612BE1FE" Ref="C?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/612BE1FE" Ref="C?"  Part="1" 
+F 0 "C?" H 4115 2846 50  0000 L CNN
+F 1 "C" H 4115 2755 50  0000 L CNN
+F 2 "" H 4038 2650 50  0001 C CNN
+F 3 "~" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2950 4000 3100
+Wire Wire Line
+	4000 3100 4500 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4000 2650 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4500 2550
+$Comp
+L Device:R R?
+U 1 1 612E0ED5
+P 4150 4350
+AR Path="/5FB4C28C/612E0ED5" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/606144ED/612E0ED5" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60669CB5/612E0ED5" Ref="R?"  Part="1" 
+AR Path="/5FB4C28C/60BA7C5A/612E0ED5" Ref="R?"  Part="1" 
+F 0 "R?" V 4250 4350 50  0000 C CNN
+F 1 "1K" V 4150 4350 50  0000 C CNN
+F 2 "" V 4080 4350 50  0001 C CNN
+F 3 "~" H 4150 4350 50  0001 C CNN
+	1    4150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4200 4150 4050
+Connection ~ 4150 4050
+Wire Wire Line
+	4150 4500 4150 4700
+Wire Wire Line
+	4150 4700 4450 4700
+Connection ~ 4450 4700
 $EndSCHEMATC
