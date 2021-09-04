@@ -15,200 +15,57 @@ Comment4 ""
 $EndDescr
 $Comp
 L 4xxx:4081 U?
-U 2 1 60BDE1B5
-P 4500 2050
-F 0 "U?" H 4500 2375 50  0000 C CNN
-F 1 "4081" H 4500 2284 50  0000 C CNN
-F 2 "" H 4500 2050 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4500 2050 50  0001 C CNN
-	2    4500 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4081 U?
 U 3 1 60BE02DC
-P 2150 3500
-F 0 "U?" H 2150 3825 50  0000 C CNN
-F 1 "4081" H 2150 3734 50  0000 C CNN
-F 2 "" H 2150 3500 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 2150 3500 50  0001 C CNN
-	3    2150 3500
+P 2150 4150
+F 0 "U?" H 2150 4475 50  0000 C CNN
+F 1 "4081" H 2150 4384 50  0000 C CNN
+F 2 "" H 2150 4150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 2150 4150 50  0001 C CNN
+	3    2150 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4081 U?
 U 4 1 60BE17B6
-P 4500 3600
-F 0 "U?" H 4500 3925 50  0000 C CNN
-F 1 "4081" H 4500 3834 50  0000 C CNN
-F 2 "" H 4500 3600 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4500 3600 50  0001 C CNN
-	4    4500 3600
+P 4950 4250
+F 0 "U?" H 4950 4575 50  0000 C CNN
+F 1 "4081" H 4950 4484 50  0000 C CNN
+F 2 "" H 4950 4250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4950 4250 50  0001 C CNN
+	4    4950 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4081 U?
 U 5 1 60BE4087
-P 2600 5000
-F 0 "U?" H 2830 5046 50  0000 L CNN
-F 1 "4081" H 2830 4955 50  0000 L CNN
-F 2 "" H 2600 5000 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 2600 5000 50  0001 C CNN
-	5    2600 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4072 U?
-U 1 1 60BE6C8B
-P 5700 2000
-F 0 "U?" H 5700 1750 50  0000 C CNN
-F 1 "4072" H 5700 1650 50  0000 C CNN
-F 2 "" H 5700 2000 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5700 2000 50  0001 C CNN
-	1    5700 2000
+P 4000 6700
+F 0 "U?" H 4230 6746 50  0000 L CNN
+F 1 "4081" H 4230 6655 50  0000 L CNN
+F 2 "" H 4000 6700 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4000 6700 50  0001 C CNN
+	5    4000 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4072 U?
 U 2 1 60BE8792
-P 5700 3550
-F 0 "U?" H 5700 3925 50  0000 C CNN
-F 1 "4072" H 5700 3834 50  0000 C CNN
-F 2 "" H 5700 3550 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5700 3550 50  0001 C CNN
-	2    5700 3550
+P 5700 4200
+F 0 "U?" H 5700 4575 50  0000 C CNN
+F 1 "4072" H 5700 4484 50  0000 C CNN
+F 2 "" H 5700 4200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5700 4200 50  0001 C CNN
+	2    5700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4072 U?
 U 3 1 60BE9944
-P 6000 4950
-F 0 "U?" H 6230 4996 50  0000 L CNN
-F 1 "4072" H 6230 4905 50  0000 L CNN
-F 2 "" H 6000 4950 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 6000 4950 50  0001 C CNN
-	3    6000 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP?
-U 1 1 60BECC23
-P 4000 1600
-F 0 "JP?" H 4000 1835 50  0000 C CNN
-F 1 "Jumper_2_Open" H 4000 1744 50  0000 C CNN
-F 2 "" H 4000 1600 50  0001 C CNN
-F 3 "~" H 4000 1600 50  0001 C CNN
-	1    4000 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60BF7586
-P 2800 2150
-F 0 "R?" V 2593 2150 50  0000 C CNN
-F 1 "R" V 2684 2150 50  0000 C CNN
-F 2 "" V 2730 2150 50  0001 C CNN
-F 3 "~" H 2800 2150 50  0001 C CNN
-	1    2800 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60BF7A25
-P 3050 2450
-F 0 "R?" H 2980 2404 50  0000 R CNN
-F 1 "R" H 2980 2495 50  0000 R CNN
-F 2 "" V 2980 2450 50  0001 C CNN
-F 3 "~" H 3050 2450 50  0001 C CNN
-	1    3050 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60BF9FE4
-P 3500 2450
-F 0 "C?" H 3615 2496 50  0000 L CNN
-F 1 "C" H 3615 2405 50  0000 L CNN
-F 2 "" H 3538 2300 50  0001 C CNN
-F 3 "~" H 3500 2450 50  0001 C CNN
-	1    3500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D?
-U 1 1 60BFAC12
-P 3800 2150
-F 0 "D?" H 3800 2366 50  0000 C CNN
-F 1 "D_Zener" H 3800 2275 50  0000 C CNN
-F 2 "" H 3800 2150 50  0001 C CNN
-F 3 "~" H 3800 2150 50  0001 C CNN
-	1    3800 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 1950 2500 1950
-Wire Wire Line
-	2650 2150 2500 2150
-Wire Wire Line
-	2500 2150 2500 1950
-Connection ~ 2500 1950
-Wire Wire Line
-	2500 1950 2450 1950
-Wire Wire Line
-	2950 2150 3050 2150
-Wire Wire Line
-	3050 2150 3050 2300
-Wire Wire Line
-	3500 2300 3500 2150
-Wire Wire Line
-	3500 2150 3050 2150
-Connection ~ 3050 2150
-Wire Wire Line
-	3650 2150 3500 2150
-Connection ~ 3500 2150
-Wire Wire Line
-	3950 2150 4200 2150
-Wire Wire Line
-	4800 2050 5400 2050
-Wire Wire Line
-	5400 2050 5400 2150
-Connection ~ 5400 2050
-Wire Wire Line
-	5400 1950 5400 1850
-Wire Wire Line
-	5400 1700 5400 1850
-Connection ~ 5400 1850
-$Comp
-L Device:R R?
-U 1 1 60C04CFC
-P 6250 2000
-F 0 "R?" V 6043 2000 50  0000 C CNN
-F 1 "R" V 6134 2000 50  0000 C CNN
-F 2 "" V 6180 2000 50  0001 C CNN
-F 3 "~" H 6250 2000 50  0001 C CNN
-	1    6250 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6000 2000 6100 2000
-Wire Wire Line
-	6400 2000 6500 2000
-Wire Wire Line
-	6500 2000 6500 1700
-Wire Wire Line
-	6500 1700 5400 1700
-Connection ~ 6500 2000
-Wire Wire Line
-	6500 2000 6750 2000
-$Comp
-L 4xxx:4081 U?
-U 1 1 60BDC57F
-P 2150 1950
-F 0 "U?" H 2150 2275 50  0000 C CNN
-F 1 "4081" H 2150 2184 50  0000 C CNN
-F 2 "" H 2150 1950 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 2150 1950 50  0001 C CNN
-	1    2150 1950
+P 5750 6700
+F 0 "U?" H 5980 6746 50  0000 L CNN
+F 1 "4072" H 5980 6655 50  0000 L CNN
+F 2 "" H 5750 6700 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5750 6700 50  0001 C CNN
+	3    5750 6700
 	1    0    0    -1  
 $EndComp
 Text HLabel 1300 1850 0    50   Input ~ 0
@@ -235,127 +92,530 @@ Wire Wire Line
 Connection ~ 1750 1850
 Wire Wire Line
 	1750 1850 1850 1850
-Text HLabel 1300 3400 0    50   Input ~ 0
+Text HLabel 1300 4050 0    50   Input ~ 0
 Wake_Input_B
 $Comp
 L Device:R R?
 U 1 1 60C15BD1
-P 1550 3400
-F 0 "R?" V 1343 3400 50  0000 C CNN
-F 1 "R" V 1434 3400 50  0000 C CNN
-F 2 "" V 1480 3400 50  0001 C CNN
-F 3 "~" H 1550 3400 50  0001 C CNN
-	1    1550 3400
+P 1550 4050
+F 0 "R?" V 1343 4050 50  0000 C CNN
+F 1 "R" V 1434 4050 50  0000 C CNN
+F 2 "" V 1480 4050 50  0001 C CNN
+F 3 "~" H 1550 4050 50  0001 C CNN
+	1    1550 4050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1300 3400 1400 3400
+	1300 4050 1400 4050
 Wire Wire Line
-	1700 3400 1750 3400
+	1700 4050 1750 4050
 Wire Wire Line
-	1850 3600 1750 3600
+	1850 4250 1750 4250
 Wire Wire Line
-	1750 3600 1750 3400
-Connection ~ 1750 3400
+	1750 4250 1750 4050
+Connection ~ 1750 4050
 Wire Wire Line
-	1750 3400 1850 3400
-$Comp
-L Device:R R?
-U 1 1 60C1EB53
-P 2800 3700
-F 0 "R?" V 2593 3700 50  0000 C CNN
-F 1 "R" V 2684 3700 50  0000 C CNN
-F 2 "" V 2730 3700 50  0001 C CNN
-F 3 "~" H 2800 3700 50  0001 C CNN
-	1    2800 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60C1EB5D
-P 3050 4000
-F 0 "R?" H 2980 3954 50  0000 R CNN
-F 1 "R" H 2980 4045 50  0000 R CNN
-F 2 "" V 2980 4000 50  0001 C CNN
-F 3 "~" H 3050 4000 50  0001 C CNN
-	1    3050 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60C1EB67
-P 3500 4000
-F 0 "C?" H 3615 4046 50  0000 L CNN
-F 1 "C" H 3615 3955 50  0000 L CNN
-F 2 "" H 3538 3850 50  0001 C CNN
-F 3 "~" H 3500 4000 50  0001 C CNN
-	1    3500 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D?
-U 1 1 60C1EB71
-P 3800 3700
-F 0 "D?" H 3800 3916 50  0000 C CNN
-F 1 "D_Zener" H 3800 3825 50  0000 C CNN
-F 2 "" H 3800 3700 50  0001 C CNN
-F 3 "~" H 3800 3700 50  0001 C CNN
-	1    3800 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 3500 2500 3500
-Wire Wire Line
-	2650 3700 2500 3700
-Wire Wire Line
-	2500 3700 2500 3500
-Connection ~ 2500 3500
-Wire Wire Line
-	2500 3500 2450 3500
-Wire Wire Line
-	2950 3700 3050 3700
-Wire Wire Line
-	3050 3700 3050 3850
-Wire Wire Line
-	3500 3850 3500 3700
-Wire Wire Line
-	3500 3700 3050 3700
-Connection ~ 3050 3700
-Wire Wire Line
-	3650 3700 3500 3700
-Connection ~ 3500 3700
-Wire Wire Line
-	3950 3700 4200 3700
+	1750 4050 1850 4050
 $Comp
 L Device:R R?
 U 1 1 60C216FA
-P 6250 3550
-F 0 "R?" V 6043 3550 50  0000 C CNN
-F 1 "R" V 6134 3550 50  0000 C CNN
-F 2 "" V 6180 3550 50  0001 C CNN
-F 3 "~" H 6250 3550 50  0001 C CNN
-	1    6250 3550
+P 6250 4200
+F 0 "R?" V 6043 4200 50  0000 C CNN
+F 1 "R" V 6134 4200 50  0000 C CNN
+F 2 "" V 6180 4200 50  0001 C CNN
+F 3 "~" H 6250 4200 50  0001 C CNN
+	1    6250 4200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6000 3550 6100 3550
+	6000 4200 6100 4200
 Wire Wire Line
-	6400 3550 6500 3550
+	6400 4200 6500 4200
 Wire Wire Line
-	6500 3550 6500 3250
+	6500 4200 6500 3900
 Wire Wire Line
-	6500 3250 5400 3250
-Connection ~ 6500 3550
+	6500 3900 5400 3900
+Connection ~ 6500 4200
 Wire Wire Line
-	6500 3550 6750 3550
+	6500 4200 6750 4200
 Wire Wire Line
-	5400 3250 5400 3400
+	5400 3900 5400 4050
 Wire Wire Line
-	5400 3400 5400 3500
-Connection ~ 5400 3400
+	5400 4050 5400 4150
+Connection ~ 5400 4050
 Wire Wire Line
-	5400 3600 5400 3700
+	5400 4250 5400 4350
 Wire Wire Line
-	5400 3600 4800 3600
-Connection ~ 5400 3600
+	5400 4250 5250 4250
+Connection ~ 5400 4250
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 60BECC23
+P 3350 1500
+F 0 "JP?" H 3350 1735 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3350 1644 50  0000 C CNN
+F 2 "" H 3350 1500 50  0001 C CNN
+F 3 "~" H 3350 1500 50  0001 C CNN
+	1    3350 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2000 6750 2000
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2000 6500 1700
+Wire Wire Line
+	6000 2000 6100 2000
+$Comp
+L Device:R R?
+U 1 1 60C04CFC
+P 6250 2000
+F 0 "R?" V 6043 2000 50  0000 C CNN
+F 1 "R" V 6134 2000 50  0000 C CNN
+F 2 "" V 6180 2000 50  0001 C CNN
+F 3 "~" H 6250 2000 50  0001 C CNN
+	1    6250 2000
+	0    1    1    0   
+$EndComp
+Connection ~ 5400 1850
+Wire Wire Line
+	5400 1700 5400 1850
+Wire Wire Line
+	5400 1950 5400 1850
+Connection ~ 5400 2050
+Wire Wire Line
+	5400 2050 5400 2150
+$Comp
+L 4xxx:4072 U?
+U 1 1 60BE6C8B
+P 5700 2000
+F 0 "U?" H 5700 1750 50  0000 C CNN
+F 1 "4072" H 5700 1650 50  0000 C CNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 2 1 60BDE1B5
+P 4900 2050
+F 0 "U?" H 4900 2375 50  0000 C CNN
+F 1 "4081" H 4900 2284 50  0000 C CNN
+F 2 "" H 4900 2050 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4900 2050 50  0001 C CNN
+	2    4900 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2000 6500 2000
+Wire Wire Line
+	6500 1700 5400 1700
+Wire Wire Line
+	5200 2050 5400 2050
+$Comp
+L Device:R R?
+U 1 1 6134AFF9
+P 4300 1700
+F 0 "R?" V 4093 1700 50  0000 C CNN
+F 1 "R" V 4184 1700 50  0000 C CNN
+F 2 "" V 4230 1700 50  0001 C CNN
+F 3 "~" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5VD #PWR?
+U 1 1 6134E7A9
+P 4300 1350
+F 0 "#PWR?" H 4300 1200 50  0001 C CNN
+F 1 "+5VD" H 4315 1523 50  0000 C CNN
+F 2 "" H 4300 1350 50  0001 C CNN
+F 3 "" H 4300 1350 50  0001 C CNN
+	1    4300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1350 4300 1550
+$Comp
+L Device:R R?
+U 1 1 61358B50
+P 4350 3900
+F 0 "R?" V 4143 3900 50  0000 C CNN
+F 1 "R" V 4234 3900 50  0000 C CNN
+F 2 "" V 4280 3900 50  0001 C CNN
+F 3 "~" H 4350 3900 50  0001 C CNN
+	1    4350 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4150 2550 4150
+Connection ~ 2500 1950
+Wire Wire Line
+	2500 1950 4600 1950
+Wire Wire Line
+	2450 1950 2500 1950
+Wire Wire Line
+	2500 2500 2500 1950
+Wire Wire Line
+	2650 2500 2500 2500
+Wire Wire Line
+	4000 2500 3900 2500
+Wire Wire Line
+	4300 2150 4300 2300
+Connection ~ 4300 2150
+Wire Wire Line
+	4600 2150 4300 2150
+Wire Wire Line
+	4300 1850 4300 2150
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 61333865
+P 4200 2500
+F 0 "Q?" H 4391 2546 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 4391 2455 50  0000 L CNN
+F 2 "" H 4400 2600 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 1 1 60BDC57F
+P 2150 1950
+F 0 "U?" H 2150 2275 50  0000 C CNN
+F 1 "4081" H 2150 2184 50  0000 C CNN
+F 2 "" H 2150 1950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 2500
+Wire Wire Line
+	3600 2500 3500 2500
+Connection ~ 3050 2500
+Wire Wire Line
+	3500 2500 3050 2500
+Wire Wire Line
+	2950 2500 3050 2500
+$Comp
+L Device:D_Zener D?
+U 1 1 60BFAC12
+P 3750 2500
+F 0 "D?" H 3750 2716 50  0000 C CNN
+F 1 "D_Zener" H 3750 2625 50  0000 C CNN
+F 2 "" H 3750 2500 50  0001 C CNN
+F 3 "~" H 3750 2500 50  0001 C CNN
+	1    3750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60BF9FE4
+P 3500 2650
+F 0 "C?" H 3615 2696 50  0000 L CNN
+F 1 "C" H 3615 2605 50  0000 L CNN
+F 2 "" H 3538 2500 50  0001 C CNN
+F 3 "~" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BF7A25
+P 3050 2650
+F 0 "R?" H 2980 2604 50  0000 R CNN
+F 1 "R" H 2980 2695 50  0000 R CNN
+F 2 "" V 2980 2650 50  0001 C CNN
+F 3 "~" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BF7586
+P 2800 2500
+F 0 "R?" V 2593 2500 50  0000 C CNN
+F 1 "R" V 2684 2500 50  0000 C CNN
+F 2 "" V 2730 2500 50  0001 C CNN
+F 3 "~" H 2800 2500 50  0001 C CNN
+	1    2800 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 4700 2550 4150
+Wire Wire Line
+	2700 4700 2550 4700
+Wire Wire Line
+	4050 4700 3950 4700
+Wire Wire Line
+	4350 4350 4350 4500
+Connection ~ 4350 4350
+Wire Wire Line
+	4650 4350 4350 4350
+Wire Wire Line
+	4350 4050 4350 4350
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 61363882
+P 4250 4700
+F 0 "Q?" H 4441 4746 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 4441 4655 50  0000 L CNN
+F 2 "" H 4450 4800 50  0001 C CNN
+F 3 "~" H 4250 4700 50  0001 C CNN
+	1    4250 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 4700
+Wire Wire Line
+	3650 4700 3550 4700
+Connection ~ 3100 4700
+Wire Wire Line
+	3550 4700 3100 4700
+Wire Wire Line
+	3000 4700 3100 4700
+$Comp
+L Device:D_Zener D?
+U 1 1 6136389B
+P 3800 4700
+F 0 "D?" H 3800 4916 50  0000 C CNN
+F 1 "D_Zener" H 3800 4825 50  0000 C CNN
+F 2 "" H 3800 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 613638A5
+P 3550 4850
+F 0 "C?" H 3665 4896 50  0000 L CNN
+F 1 "C" H 3665 4805 50  0000 L CNN
+F 2 "" H 3588 4700 50  0001 C CNN
+F 3 "~" H 3550 4850 50  0001 C CNN
+	1    3550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613638AF
+P 3100 4850
+F 0 "R?" H 3030 4804 50  0000 R CNN
+F 1 "R" H 3030 4895 50  0000 R CNN
+F 2 "" V 3030 4850 50  0001 C CNN
+F 3 "~" H 3100 4850 50  0001 C CNN
+	1    3100 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613638B9
+P 2850 4700
+F 0 "R?" V 2643 4700 50  0000 C CNN
+F 1 "R" V 2734 4700 50  0000 C CNN
+F 2 "" V 2780 4700 50  0001 C CNN
+F 3 "~" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 4150
+Wire Wire Line
+	2550 4150 4650 4150
+$Comp
+L power:+5VD #PWR?
+U 1 1 61377C62
+P 4350 3550
+F 0 "#PWR?" H 4350 3400 50  0001 C CNN
+F 1 "+5VD" H 4365 3723 50  0000 C CNN
+F 2 "" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3550 4350 3750
+$Comp
+L power:Earth #PWR?
+U 1 1 61379B7B
+P 3100 5150
+F 0 "#PWR?" H 3100 4900 50  0001 C CNN
+F 1 "Earth" H 3100 5000 50  0001 C CNN
+F 2 "" H 3100 5150 50  0001 C CNN
+F 3 "~" H 3100 5150 50  0001 C CNN
+	1    3100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137A2C0
+P 3550 5150
+F 0 "#PWR?" H 3550 4900 50  0001 C CNN
+F 1 "Earth" H 3550 5000 50  0001 C CNN
+F 2 "" H 3550 5150 50  0001 C CNN
+F 3 "~" H 3550 5150 50  0001 C CNN
+	1    3550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137AC25
+P 4350 5150
+F 0 "#PWR?" H 4350 4900 50  0001 C CNN
+F 1 "Earth" H 4350 5000 50  0001 C CNN
+F 2 "" H 4350 5150 50  0001 C CNN
+F 3 "~" H 4350 5150 50  0001 C CNN
+	1    4350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137B0BC
+P 4300 2850
+F 0 "#PWR?" H 4300 2600 50  0001 C CNN
+F 1 "Earth" H 4300 2700 50  0001 C CNN
+F 2 "" H 4300 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137B594
+P 3500 2950
+F 0 "#PWR?" H 3500 2700 50  0001 C CNN
+F 1 "Earth" H 3500 2800 50  0001 C CNN
+F 2 "" H 3500 2950 50  0001 C CNN
+F 3 "~" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137B89C
+P 3050 2950
+F 0 "#PWR?" H 3050 2700 50  0001 C CNN
+F 1 "Earth" H 3050 2800 50  0001 C CNN
+F 2 "" H 3050 2950 50  0001 C CNN
+F 3 "~" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137BB5B
+P 4000 7350
+F 0 "#PWR?" H 4000 7100 50  0001 C CNN
+F 1 "Earth" H 4000 7200 50  0001 C CNN
+F 2 "" H 4000 7350 50  0001 C CNN
+F 3 "~" H 4000 7350 50  0001 C CNN
+	1    4000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6137C163
+P 5750 7350
+F 0 "#PWR?" H 5750 7100 50  0001 C CNN
+F 1 "Earth" H 5750 7200 50  0001 C CNN
+F 2 "" H 5750 7350 50  0001 C CNN
+F 3 "~" H 5750 7350 50  0001 C CNN
+	1    5750 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5150 4350 4900
+Wire Wire Line
+	3550 5150 3550 5000
+Wire Wire Line
+	3100 5150 3100 5000
+Wire Wire Line
+	3050 2950 3050 2800
+Wire Wire Line
+	3500 2950 3500 2800
+Wire Wire Line
+	4300 2850 4300 2700
+Wire Wire Line
+	4000 7350 4000 7300
+Wire Wire Line
+	5750 7350 5750 7300
+Wire Wire Line
+	4000 6200 4000 6150
+Wire Wire Line
+	5750 6200 5750 6150
+$Comp
+L power:+5VD #PWR?
+U 1 1 613A1071
+P 4000 6050
+F 0 "#PWR?" H 4000 5900 50  0001 C CNN
+F 1 "+5VD" H 4015 6223 50  0000 C CNN
+F 2 "" H 4000 6050 50  0001 C CNN
+F 3 "" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR?
+U 1 1 613A1626
+P 5750 6050
+F 0 "#PWR?" H 5750 5900 50  0001 C CNN
+F 1 "+5VD" H 5765 6223 50  0000 C CNN
+F 2 "" H 5750 6050 50  0001 C CNN
+F 3 "" H 5750 6050 50  0001 C CNN
+	1    5750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 613A1A5D
+P 5300 6700
+F 0 "C?" H 5050 6750 50  0000 L CNN
+F 1 "C" H 5100 6650 50  0000 L CNN
+F 2 "" H 5338 6550 50  0001 C CNN
+F 3 "~" H 5300 6700 50  0001 C CNN
+	1    5300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 613A2346
+P 3550 6700
+F 0 "C?" H 3300 6750 50  0000 L CNN
+F 1 "C" H 3350 6650 50  0000 L CNN
+F 2 "" H 3588 6550 50  0001 C CNN
+F 3 "~" H 3550 6700 50  0001 C CNN
+	1    3550 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6550 5300 6150
+Wire Wire Line
+	5300 6150 5750 6150
+Connection ~ 5750 6150
+Wire Wire Line
+	5750 6150 5750 6050
+Wire Wire Line
+	5300 6850 5300 7300
+Wire Wire Line
+	5300 7300 5750 7300
+Connection ~ 5750 7300
+Wire Wire Line
+	5750 7300 5750 7200
+Wire Wire Line
+	3550 6550 3550 6150
+Wire Wire Line
+	3550 6150 4000 6150
+Connection ~ 4000 6150
+Wire Wire Line
+	4000 6150 4000 6050
+Wire Wire Line
+	3550 6850 3550 7300
+Wire Wire Line
+	3550 7300 4000 7300
+Connection ~ 4000 7300
+Wire Wire Line
+	4000 7300 4000 7200
+Text HLabel 6750 2000 2    50   BiDi ~ 0
+Wake_A
+Text HLabel 6750 4200 2    50   BiDi ~ 0
+Wake_B
 $EndSCHEMATC
