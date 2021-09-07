@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 16
 Title "Door Controller - Top Level"
 Date "2020-11-12"
 Rev "0.9"
