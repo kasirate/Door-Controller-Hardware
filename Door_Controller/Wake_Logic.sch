@@ -202,4 +202,93 @@ Text Label 7550 2100 2    50   ~ 0
 Unlocked_Wake
 Wire Wire Line
 	7550 2200 7800 2200
+Text HLabel 9150 2150 2    50   Output ~ 0
+WAKE
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 6191434E
+P 8600 3600
+AR Path="/60BD8BC8/60BD8C71/6191434E" Ref="Q?"  Part="1" 
+AR Path="/60BD8BC8/613ABD4B/6191434E" Ref="Q?"  Part="1" 
+AR Path="/60BD8BC8/613AC461/6191434E" Ref="Q?"  Part="1" 
+AR Path="/60BD8BC8/6191434E" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8791 3646 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 8791 3555 50  0000 L CNN
+F 2 "" H 8800 3700 50  0001 C CNN
+F 3 "~" H 8600 3600 50  0001 C CNN
+	1    8600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619258EF
+P 8700 3050
+F 0 "R?" V 8800 3000 50  0000 L CNN
+F 1 "1K" V 8700 3000 50  0000 L CNN
+F 2 "" V 8630 3050 50  0001 C CNN
+F 3 "~" H 8700 3050 50  0001 C CNN
+	1    8700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 619265B7
+P 8700 4000
+F 0 "#PWR?" H 8700 3750 50  0001 C CNN
+F 1 "Earth" H 8700 3850 50  0001 C CNN
+F 2 "" H 8700 4000 50  0001 C CNN
+F 3 "~" H 8700 4000 50  0001 C CNN
+	1    8700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6192717C
+P 8100 3600
+F 0 "R?" V 8000 3600 50  0000 C CNN
+F 1 "100" V 8100 3600 50  0000 C CNN
+F 2 "" V 8030 3600 50  0001 C CNN
+F 3 "~" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7550 3600 0    50   Input ~ 0
+Wake_Disable
+Wire Wire Line
+	7550 3600 7950 3600
+Wire Wire Line
+	8250 3600 8400 3600
+Wire Wire Line
+	8700 3400 8700 3200
+Wire Wire Line
+	8700 3800 8700 4000
+Wire Wire Line
+	8400 2150 8700 2150
+$Comp
+L Device:R R?
+U 1 1 61929B15
+P 8700 2550
+F 0 "R?" V 8800 2500 50  0000 L CNN
+F 1 "10K" V 8700 2500 50  0000 L CNN
+F 2 "" V 8630 2550 50  0001 C CNN
+F 3 "~" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2400 8700 2150
+Connection ~ 8700 2150
+Wire Wire Line
+	8700 2150 9150 2150
+Wire Wire Line
+	8700 2700 8700 2800
+Wire Wire Line
+	8700 2800 7500 2800
+Wire Wire Line
+	7500 2800 7500 2300
+Wire Wire Line
+	7500 2300 7800 2300
+Connection ~ 8700 2800
+Wire Wire Line
+	8700 2800 8700 2900
 $EndSCHEMATC
